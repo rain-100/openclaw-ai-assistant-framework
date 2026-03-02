@@ -73,10 +73,10 @@
 
 | 模型池 | 主模型 | 备模型 | 用途 |
 |:---|:---|:---|:---|
-| **高速池** | zai/glm-4.7 | moonshot/kimi-k2.5 | 快速响应 |
-| **智能池** | zai/glm-5 | kimi-coding/k2p5 | 复杂推理 |
-| **文本池** | moonshot/kimi-k2.5 | kimi-coding/k2p5 | 长文本 |
-| **视觉池** | zai/glm-4.6v | kimi-coding/k2p5 | 图片/视频 |
+| **高速池** | github-copilot/gpt-5-mini | github-copilot/gpt-5-mini | 快速响应 |
+| **智能池** | github-copilot/gpt-5-mini | github-copilot/gpt-5-mini | 复杂推理 |
+| **文本池** | github-copilot/gpt-5-mini | github-copilot/gpt-5-mini | 长文本 |
+| **视觉池** | github-copilot/gpt-5-mini | github-copilot/gpt-5-mini | 图片/视频 |
 
 **健康检查**: 每6小时检查一次
 
