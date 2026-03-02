@@ -8,8 +8,8 @@
 
 | 角色 | 模型 | 说明 |
 |:---|:---|:---|
-| **主模型** | zai/glm-4.7 | 速度快、成本低 |
-| **备模型** | moonshot/kimi-k2.5 | Kimi基础版 |
+| **主模型** | github-copilot/gpt-5-mini | 速度快、成本低 |
+| **备模型** | github-copilot/gpt-5-mini | Kimi基础版 |
 
 **适用场景**：
 - 日常闲聊
@@ -25,8 +25,8 @@
 
 | 角色 | 模型 | 说明 |
 |:---|:---|:---|
-| **主模型** | zai/glm-5 | 推理能力强 |
-| **备模型** | kimi-coding/k2p5 | Kimi编程版 |
+| **主模型** | github-copilot/gpt-5-mini | 推理能力强 |
+| **备模型** | github-copilot/gpt-5-mini | Kimi编程版 |
 
 **适用场景**：
 - 复杂推理
@@ -42,8 +42,8 @@
 
 | 角色 | 模型 | 说明 |
 |:---|:---|:---|
-| **主模型** | moonshot/kimi-k2.5 | Kimi通用版 |
-| **备模型** | kimi-coding/k2p5 | Kimi编程版 |
+| **主模型** | github-copilot/gpt-5-mini | Kimi通用版 |
+| **备模型** | github-copilot/gpt-5-mini | Kimi编程版 |
 
 **适用场景**：
 - 长文本处理
@@ -59,8 +59,8 @@
 
 | 角色 | 模型 | 说明 |
 |:---|:---|:---|
-| **主模型** | zai/glm-4.6v | GLM视觉版 |
-| **备模型** | kimi-coding/k2p5 | Kimi编程版（支持视觉） |
+| **主模型** | github-copilot/gpt-5-mini | GLM视觉版 |
+| **备模型** | github-copilot/gpt-5-mini | Kimi编程版（支持视觉） |
 
 **适用场景**：
 - 图片分析
@@ -120,7 +120,7 @@
 
 ### 默认路由
 
-- **默认**: 智能池（zai/glm-5）
+- **默认**: 智能池（github-copilot/gpt-5-mini）
 - **原因**: 大多数任务需要推理能力
 
 ---
@@ -129,6 +129,7 @@
 
 | 模型 | Provider | 能力 | 池分配 |
 |:---|:---|:---|:---|
+| github-copilot/gpt-5-mini | github-copilot | 推理 | 智能池（主） |
 | zai/glm-5 | 智谱 | 推理 | 智能池（主） |
 | zai/glm-4.7 | 智谱 | 速度 | 高速池（主） |
 | zai/glm-4.6v | 智谱 | 视觉 | 视觉池（主） |
